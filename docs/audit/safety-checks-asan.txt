@@ -1,0 +1,23 @@
+UpdateCTestConfiguration  from :E:/source/repos/MaxsuPoise-master/build/safety-checks-asan/DartConfiguration.tcl
+Test project E:/source/repos/MaxsuPoise-master/build/safety-checks-asan
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: performance_checks
+
+1: Test command: E:\source\repos\MaxsuPoise-master\build\safety-checks-asan\Release\performance_checks.exe
+1: Working Directory: E:/source/repos/MaxsuPoise-master/build/safety-checks-asan
+1: Test timeout computed to be: 9999879
+1: armor_trials=3000 legacy_snapshots=12344 optimized_snapshots=3000
+1: regen_trials=5000 unchanged_health_writes_skipped=468
+1: annotation_iterations=100000 legacy_ms=3438.74 warm_cache_ms=17.3462 ratio=198.242
+1: PASS
+1/1 Test #1: performance_checks ...............   Passed    4.63 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   4.64 sec

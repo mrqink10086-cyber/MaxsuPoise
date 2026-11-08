@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-08T05:24:21.171901+00:00",
+  "source": "E:\\source\\repos\\CommonLibSSE-NG-ng",
+  "branch": "ng",
+  "commit": "07262cc2ae75777a422ed0c9621310fadef7c382",
+  "commit_date": "2026-11-07T23:51:09Z",
+  "commit_url": "https://github.com/alandtse/CommonLibSSE-NG/commit/07262cc2ae75777a422ed0c9621310fadef7c382",
+  "checked_files": 2813,
+  "missing": [],
+  "changed": [],
+  "line_endings_only": [
+    "scripts/build-all-presets.cmd"
+  ],
+  "passed": true
+}

@@ -1,0 +1,50 @@
+{
+  "dll": "E:\\source\\repos\\MaxsuPoise-master\\build\\ng\\Release\\MaxsuPoise.dll",
+  "sha256": "ee5876938d163e8b1385b255e621a6cd2d9d4e63a60eff119c551fb4698fed01",
+  "bytes": 727040,
+  "machine": "0x8664",
+  "exports": [
+    "SKSEPlugin_Load",
+    "SKSEPlugin_Query",
+    "SKSEPlugin_Version"
+  ],
+  "metadata": {
+    "data_version": 1,
+    "plugin_version": "0.3.6.0",
+    "plugin_name": "MaxsuPoise",
+    "author": "Maxsu",
+    "version_independence_ex": 2,
+    "version_independence": 4,
+    "compatible_runtimes": [
+      "1.5.97.0",
+      "1.6.1170.0"
+    ],
+    "minimum_skse": "2.0.20.0"
+  },
+  "imports": [
+    "KERNEL32.dll",
+    "MSVCP140.dll",
+    "MSVCP140_ATOMIC_WAIT.dll",
+    "SHELL32.dll",
+    "USER32.dll",
+    "VCRUNTIME140.dll",
+    "VCRUNTIME140_1.dll",
+    "VERSION.dll",
+    "api-ms-win-crt-convert-l1-1-0.dll",
+    "api-ms-win-crt-filesystem-l1-1-0.dll",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-locale-l1-1-0.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-multibyte-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "api-ms-win-crt-time-l1-1-0.dll",
+    "ole32.dll"
+  ],
+  "binary_protection": {
+    "dynamic_base": true,
+    "nx_compatible": true,
+    "security_cookie_present": true
+  }
+}

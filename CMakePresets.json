@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 24, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "NG",
+      "displayName": "CommonLibSSE-NG (1.5.97 + 1.6.1170)",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build/ng",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows-static-md",
+        "ENABLE_SKYRIM_SE": "ON",
+        "ENABLE_SKYRIM_AE": "ON"
+      }
+    },
+    {
+      "name": "AE",
+      "inherits": "NG",
+      "binaryDir": "${sourceDir}/build/ae",
+      "cacheVariables": { "ENABLE_SKYRIM_SE": "OFF" }
+    },
+    {
+      "name": "SE",
+      "inherits": "NG",
+      "binaryDir": "${sourceDir}/build/se",
+      "cacheVariables": { "ENABLE_SKYRIM_AE": "OFF" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "NG", "configurePreset": "NG", "configuration": "Release", "targets": ["MaxsuPoise"] },
+    { "name": "AE", "configurePreset": "AE", "configuration": "Release", "targets": ["MaxsuPoise"] },
+    { "name": "SE", "configurePreset": "SE", "configuration": "Release", "targets": ["MaxsuPoise"] }
+  ]
+}
